@@ -7,6 +7,11 @@
       <option name="url" value="http://10.27.8.53:8081/nexus/content/groups/public/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="jcenter" />
+      <option name="name" value="jcenter" />
+      <option name="url" value="https://dl.bintray.com/cbeust/maven/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
       <option name="url" value="https://repo.maven.apache.org/maven2" />
@@ -35,6 +40,11 @@
       <option name="id" value="snapshots" />
       <option name="name" value="rd-snapshots" />
       <option name="url" value="https://artifactory.verifone.com/artifactory/rd-snapshots" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="rd-repositories" />
+      <option name="url" value="https://artifactory.verifone.com/artifactory/rd-repositories" />
     </remote-repository>
   </component>
 </project>

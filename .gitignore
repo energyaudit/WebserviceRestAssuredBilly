@@ -52,3 +52,53 @@ local.properties
 .scala_dependencies
 .worksheet
 /target/
+#.idea
+.idea/workspace.xml
+.idea/*.*
+/.idea/
+.idea
+.metadata
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+
+
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+#screenshots
+/src/main/screenshot
+FailedTestsScreenshots/
+../FailedTestsScreenshots/
+
+# other branch
+../CommanderN/
+../CucumberTest_NGsrc/
+
+#chormeDriver
+src/main/resources/chromedriver.exe
+
+# css file
+*.css
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+#log file
+**/*.log
+
+#other folders
+src/test/test-output/*
+
+# Eclipse Core
+.project

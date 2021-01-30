@@ -43,6 +43,8 @@ public class TestGetWithSSL extends BaseSSLClass  {
 	public void testGetWithCertificate() {
 		
 		given()
+	//.auth()
+	//certificate("C:\\Users\\rahul.rathore\\Desktop\\Rest\\Video\\Resource\\mykey.keystore", "password");
 		.log()
 		.all()
 		.when()
